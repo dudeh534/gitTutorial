@@ -1,2 +1,11 @@
 1. clone / new 를 통해서 디렉토리를 만들고
 2. 디렉토리 안에 파일, 파일 안에 내용을 추가 후 commit
+2-1. working copy에 있는 변경된 파일을 add하게 되면 index, staging area에 이동한다
+이후 커밋하면 디렉터리에 저장하게된다.
+2-2. 붉은 색에 있는 것이 없어졌다고 생각하면 된다.
+3. Discard 버튼을 통해서 commit을 한 마지막 버전의 상태로 돌아간다. unstaged file을
+마지막 상태로 돌린다.
+3-1. commit 하기 전 마지막 commit한 상태와 비교하여 확인하는 절차는 매우 좋은 습관이다.
+4. history에서 내가 원하는 버전으로 돌아가고 싶을 때 reset Current branch to this commit - hard
+옵션을 통해 this commit으로 돌아가고 그 이후 버전을 삭제한다. (유의해서 써야한다.)
+mix
