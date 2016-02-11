@@ -1,3 +1,4 @@
+브런치 테스트
 1. clone / new 를 통해서 디렉토리를 만들고
 2. 디렉토리 안에 파일, 파일 안에 내용을 추가 후 commit
 2-1. working copy에 있는 변경된 파일을 add하게 되면 index, staging area에 이동한다
