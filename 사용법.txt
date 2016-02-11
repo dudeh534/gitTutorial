@@ -16,4 +16,5 @@ status는 그대로 둔채 버전만 this commit으로 옮겨지고 이후 버�
 5. branch를 따로 만들어서 독립된 작업을 하고 master branch와 merge 할 수 있다.
 5-1. 이때 conflict error가 날 수 있는데 이 경우 자신의 소스 코드를 고치고 나서 mark resolve 옵션을
 선택하여 깃에게 이 문제를 해결했다고 알린다.
-6. conflict 최소화 충돌 해결
+6. conflict 최소화 충돌 해결 - subBranch에서 master의 내용을 주기적으로 동기화해야 한다. 이것은
+master의 내용을 subBranch에 주기적으로 merge해서 가져오게 된다.
