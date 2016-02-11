@@ -13,4 +13,3 @@
 4.1 reset Current branch to this commit - mix 옵션으로 하면 내가 지금 작성하고 있는 파일의
 status는 그대로 둔채 버전만 this commit으로 옮겨지고 이후 버전은 삭제된다. 이것은 내가 커밋을 잘못
 했을 때 유용할 것 같다. 내가 잘못 commit한 버전만 삭제할 수 있으니 좋다
-5. branch merge add
