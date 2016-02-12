@@ -20,3 +20,4 @@ status는 그대로 둔채 버전만 this commit으로 옮겨지고 이후 버�
 master의 내용을 subBranch에 주기적으로 merge해서 가져오게 된다.
 7. remote repository one two
 8. remote repository에서 clone - 새로운 repository에 저장하기 add
+9. add
