@@ -1,4 +1,4 @@
-1. clone / new 를 통해서 디렉토리를 만들고
+﻿1. clone / new 를 통해서 디렉토리를 만들고
 2. 디렉토리 안에 파일, 파일 안에 내용을 추가 후 commit
 2-1. working copy에 있는 변경된 파일을 add하게 되면 index, staging area에 이동한다
 이후 커밋하면 디렉터리에 저장하게된다.
@@ -20,4 +20,8 @@ status는 그대로 둔채 버전만 this commit으로 옮겨지고 이후 버�
 master의 내용을 subBranch에 주기적으로 merge해서 가져오게 된다.
 7. remote repository one two
 8. remote repository에서 clone - 새로운 repository에 저장하기 add
+<<<<<<< HEAD
 9. add
+=======
+9. pull을 통해서 다른 사람들이 원래의 소스를 가지고 온다.
+>>>>>>> 3d671e3ec95064e812eebeb099a93f5bac0df805
