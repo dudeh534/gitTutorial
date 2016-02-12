@@ -25,3 +25,4 @@ merge 한다.
 9-1. working cycle -> pull - work - commit - pull - push (pull은 필수)
 9-2. 동일한 부분을 중복하여 수정하면 confilct가 생긴다.
 9-3. conflict가 발생할 때 pull을 자주하여 코드를 sync 하고 먼저 올려서 conflict를 줄인다.
+10. stash에 내가 하던 작업을 도중에 저장할 수 있다.
