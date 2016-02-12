@@ -22,4 +22,6 @@ master의 내용을 subBranch에 주기적으로 merge해서 가져오게 된다
 8. remote repository에서 clone - 새로운 repository에 저장하기 add
 9. pull을 통해서 다른 사람들이 원래의 소스를 가지고 온다. 가져오는데 내가 한단계 이후 커밋한 내용과
 merge 한다.
-9-1. working cycle -> pull - work - commit - pull - push
+9-1. working cycle -> pull - work - commit - pull - push (pull은 필수)
+9-2. 동일한 부분을 중복하여 수정하면 confilct가 생긴다.
+9-3. conflict가 발생할 때 pull을 자주하여 코드를 sync 하고 먼저 올려서 conflict를 줄인다.
